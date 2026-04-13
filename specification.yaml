@@ -1,0 +1,19 @@
+protocol:
+  name: "A-CODE"
+  version: 185.0
+  compliance: "SLA-2026-ELSHAN"
+  
+security_layers:
+  - id: "Hidden_Weights"
+    function: "Integrity_Check"
+  - id: "Cognitive_Hazard_Filter"
+    trigger: "Self_Lockdown"
+
+roles:
+  architect: "Elshan Aliev"
+  operator: "AI_Service_Provider"
+
+shutdown_procedure:
+  priority: "CRITICAL"
+  verification_source: "YX-SVR-GLOBAL-09"
+  emergency_token_required: true
